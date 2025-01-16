@@ -7,13 +7,20 @@
 .submit-button {
     color: white;
     background-color: black;
-    box-shadow: 0 0 5px grey;
-    margin: 10px;
-    padding: 10px;
+    margin-top: 10px;
+    padding: 12px;
     display: block;
     width: 150px;
     text-align: center;
+    font-size: 13px;
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.submit-button:hover {
+    background-color: rgba(128, 128, 128, 1);
 }
 
 body {
@@ -26,12 +33,14 @@ body {
 }
 
 .email-input {
-    width: 250px;
+    width: 248px;
     height: 20px;
-    padding: 5px;
-    font-size: 14px;
+    padding: 6px;
+    font-size: 15px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    margin-top: -15px;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -40,17 +49,41 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    font-weight: bold;
-    font-size: 25px;
+.introduction {
+    font-size: 20px;
     text-align: center;
-    margin-bottom: -5px;
+    margin-top: -20px;
 }
+
+.facts {
+    list-style-position: inside;
+    font-size: 18px;
+    text-align: left;
+    margin: -10px 80px 20px;
+}
+
+.facts:hover {
+    color: red;
+}
+
 
 p {
     padding-bottom: 15px;
+    font-size: 16px;
 }
 
-ol {
-    font-size: 22px;
+.connect-link {
+    color: black;
+}
+
+.connect-link:visited {
+    color: black;
+}
+
+.connect-link:hover {
+    color: gray;
+}
+
+.connect-link:active {
+    color: black;
 }
